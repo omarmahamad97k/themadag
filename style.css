@@ -1,0 +1,34 @@
+* Basis styling voor de button */
+    .button {
+     
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      height: 150px;
+      width: 150px;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px; /* afgeronde hoeken */
+      transition: background-color 0.3s ease; /* overgangseffect */
+    }
+
+    /* Hover-effect */
+    .button:hover {
+      background-color: #45a049;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
